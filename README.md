@@ -9,10 +9,10 @@ This cookbook is written for OpsWorks (Chef 12 flavor) as uses Chef search again
 Usage
 -----
 #### opsworks-redis-cluster::master
-Installs redis-server and redis-cluster with this node as master. redis-sentinel configuration will initially monitor this node.
+Installs redis-server and redis-sentinel with this node as master. redis-sentinel configuration will initially monitor this node.
 
 #### opsworks-redis-cluster::slave
-Installs redis-server and redis-cluster with this node as a slave. redis-server configuration will include slaveof and point to the master node.
+Installs redis-server and redis-sentinel with this node as a slave. redis-server configuration will include slaveof and point to the master node. 
 
 License and Authors
 -------------------
